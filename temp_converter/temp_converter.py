@@ -1,6 +1,12 @@
 #!/usr/bin/python3
 """
-Sophia Brady, CSC 138 EG, September 10th, 2024
+        temp.py - converts Celsius temperatures to Fahrenheit
+        Created by: Sophia Brady
+        Created on: 091024
+        Course number: CSC 138 
+        Course SectionEG
+
+        Changes: Added parenthesis to make sure the formula could run properly. Changed the print line so the result would have F to symbolize the Uuits of Fahrenheit
 """
 def c2f(c):
     return (c * 9 / 5) + 32
@@ -9,5 +15,5 @@ def main(cel):
     return c2f(cel)
 
 if __name__ == "__main__":
-    cel = 100         # input (Celsius is set to 100 degrees)
-    print(f"{main(cel)}F")  # output (Fahrenheit, I made the code to print F to symbolize that the result of this code was in Fahrenheit)
+    cel = 100         # input (Celsius)
+    print(f"{main(cel)}F")  # output (Fahrenheit)
