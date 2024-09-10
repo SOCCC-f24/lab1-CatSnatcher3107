@@ -12,7 +12,7 @@ def c2f(c):
     return (c * 9 / 5) + 32
 #this is the formula used to convert Celsius to Fahrenheit
 def main(cel):
-    return c2f(cel)
+    return round (c2f(cel))
 
 if __name__ == "__main__":
     cel = 100         # input (Celsius)
