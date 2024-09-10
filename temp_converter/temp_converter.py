@@ -4,7 +4,7 @@
         Created by: Sophia Brady
         Created on: 091024
         Course number: CSC 138 
-        Course SectionEG
+        Course Section: EG
 
         Changes: Added parenthesis to make sure the formula could run properly. Changed the print line so the result would have F to symbolize the Uuits of Fahrenheit
 """
