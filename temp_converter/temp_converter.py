@@ -6,7 +6,7 @@
         Course number: CSC 138 
         Course Section: EG
 
-        Changes: Added parenthesis to make sure the formula could run properly. Changed the print line so the result would have F to symbolize the Uuits of Fahrenheit
+        Changes: Added parenthesis to make sure the formula could run properly. Changed the print line so the result would have F to symbolize the Units of Fahrenheit
 """
 def c2f(c):
     return (c * 9 / 5) + 32
